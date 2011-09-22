@@ -1,0 +1,216 @@
+<ui version="4.0" >
+ <class>EncodeVideoDialog</class>
+ <widget class="QDialog" name="EncodeVideoDialog" >
+  <property name="windowModality" >
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="enabled" >
+   <bool>true</bool>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Encode Video</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <layout class="QGridLayout" >
+     <item row="0" column="0" >
+      <widget class="QLabel" name="labelFile" >
+       <property name="text" >
+        <string>Input file</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" >
+      <widget class="QLineEdit" name="lineEditFile" >
+       <property name="readOnly" >
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2" >
+      <widget class="QPushButton" name="pushButtonFile" >
+       <property name="text" >
+        <string>Browse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" >
+      <widget class="QLabel" name="labelName" >
+       <property name="text" >
+        <string>Video name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" >
+      <widget class="QLineEdit" name="lineEditName" />
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" >
+     <item row="0" column="0" colspan="2" >
+      <widget class="QGroupBox" name="groupBoxType" >
+       <property name="title" >
+        <string>Type</string>
+       </property>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="radioButtonTypeSP" >
+          <property name="text" >
+           <string>SP (FW 1.5)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonTypeAVC" >
+          <property name="text" >
+           <string>AVC (FW 2.0)</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonTypeFullRes" >
+          <property name="text" >
+           <string>AVC Full Resolution (FW 3.XX OE)</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="2" >
+      <widget class="QGroupBox" name="groupBoxPasses" >
+       <property name="title" >
+        <string>Passes</string>
+       </property>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="radioButtonPasses1" >
+          <property name="text" >
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonPasses2" >
+          <property name="text" >
+           <string>2</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="1" column="0" >
+      <widget class="QGroupBox" name="groupBoxAspect" >
+       <property name="title" >
+        <string>Aspect Ratio</string>
+       </property>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="radioButtonAspectSquare" >
+          <property name="text" >
+           <string>4:3</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonAspectWide" >
+          <property name="text" >
+           <string>16:9</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="1" column="1" >
+      <widget class="QGroupBox" name="groupBoxVideo" >
+       <property name="title" >
+        <string>Video Bitrate</string>
+       </property>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="radioButtonVideo384" >
+          <property name="text" >
+           <string>384 kbps</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonVideo512" >
+          <property name="text" >
+           <string>512 kbps</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonVideo768" >
+          <property name="text" >
+           <string>768 kbps</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="1" column="2" >
+      <widget class="QGroupBox" name="groupBoxAudio" >
+       <property name="title" >
+        <string>Audio Bitrate</string>
+       </property>
+       <layout class="QVBoxLayout" >
+        <item>
+         <widget class="QRadioButton" name="radioButtonAudio64" >
+          <property name="text" >
+           <string>64 kbps</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButtonAudio128" >
+          <property name="text" >
+           <string>128 kbps</string>
+          </property>
+          <property name="checked" >
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox" >
+     <property name="standardButtons" >
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::NoButton|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

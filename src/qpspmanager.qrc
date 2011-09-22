@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>icons/1leftarrow.png</file>
+        <file>icons/1rightarrow.png</file>
+        <file>icons/applications.png</file>
+        <file>icons/backups.png</file>
+        <file>icons/cancel.png</file>
+        <file>icons/help.png</file>
+        <file>icons/isos.png</file>
+        <file>icons/minus.png</file>
+        <file>icons/ok.png</file>
+        <file>icons/options.png</file>
+        <file>icons/play.png</file>
+        <file>icons/plus.png</file>
+        <file>icons/pspinfo.png</file>
+        <file>icons/stop.png</file>
+        <file>icons/videos.png</file>
+        <file>icons/expand.png</file>
+        <file>icons/qpspmanager.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,84 @@
+<ui version="4.0" >
+ <class>HelpWidget</class>
+ <widget class="QWidget" name="HelpWidget" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>503</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" >
+   <item>
+    <layout class="QHBoxLayout" >
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelTitle" >
+       <property name="text" >
+        <string>Help/About</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="textBrowserAbout" >
+     <property name="html" >
+      <string>&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;">
+&lt;p align="center" style=" margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:xx-large; font-weight:600;">&lt;span style=" font-size:xx-large;">QPSPManager&lt;/span>&lt;span style=" font-size:xx-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The PSP Manager	&lt;/p>
+&lt;p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">version 2.0	&lt;/p>
+&lt;p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">(C) 2007 Bernat Ràfales Mulet	&lt;/p>
+&lt;p align="center" style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;a href="http://qpspmanager.sourceforge.net">&lt;span style=" text-decoration: underline; color:#0000ff;">http://qpspmanager.sourceforge.net&lt;/span>&lt;/a>	&lt;/p>
+&lt;p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;">&lt;span style=" font-size:x-large;">Information&lt;/span>&lt;span style=" font-size:x-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">QPSPManager is a PSP manager for Linux, Mac OS X and Windows. It has a variety of features, including application management, a savegame backup system, a PSX ISO converter, a PSP ISO compressor and a video encoder. Note than some of the features provided by QPSPManager are only supported for specific firmware versions.	&lt;/p>
+&lt;p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;">&lt;span style=" font-size:x-large;">Authors&lt;/span>&lt;span style=" font-size:x-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This program was designed and developed by Bernat Ràfales Mulet under the GPLv2 license. Some parts of the code were taken from other open source related programs such as kpspconverter and the sources provided by Dark_Alex to manipulate binary PSP files.	&lt;/p>
+&lt;p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;">&lt;span style=" font-size:x-large;">Bugs / Feedback / Contact author&lt;/span>&lt;span style=" font-size:x-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Please feel free to report bugs, give feedback or make suggestions to the author at &lt;a href="mailto:the_bell@users.sourceforge.net">&lt;span style=" text-decoration: underline; color:#0000ff;">the_bell@users.sourceforge.net&lt;/span>&lt;/a>. If you think you can help in the project feel free to email me too! Help is always wanted.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Don't forget to visit the home page at &lt;a href="http://qpspmanager.sourceforge.net">&lt;span style=" text-decoration: underline; color:#0000ff;">http://qpspmanager.sourceforge.net&lt;/span>&lt;/a> for updates and news about QPSPManager.&lt;/p>
+&lt;p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;">&lt;span style=" font-size:x-large;">Special thanks&lt;/span>&lt;span style=" font-size:x-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Special thanks go to Dark_Alex for his incredible job done in the PSP Scene, and to all the other people who has helped the scene, specially those ones who have shared this work as open source.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Special thanks also to Roger Ferrer for his continued support in my lacking but always getting better C++ skills :)	&lt;/p>
+&lt;p style=" margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;">&lt;span style=" font-size:x-large;">License&lt;/span>&lt;span style=" font-size:x-large; font-weight:400;">	&lt;/span>&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This program is distributed under the terms of the GPL v2. Please read the LICENSE file included in the distribution of the program for more information.	&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">This program comes with NO WARRANTY and is distributed AS IS, use it at your own risk. The author takes no responsability of the possible damage caused to your computer or your PSP.&lt;/p>&lt;/body>&lt;/html></string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

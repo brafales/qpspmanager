@@ -20,6 +20,7 @@ Manages the ISO/CISO files on the PSP, allowing to delete them and copy them com
 
 # Installation
 QT toolkit, g++ and zlib required.
+
     qmake
     make
     make install
